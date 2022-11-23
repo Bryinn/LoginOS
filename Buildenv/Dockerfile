@@ -9,3 +9,5 @@ RUN apt-get install -y grub-common
 
 VOLUME /root/env
 WORKDIR /root/env
+#docker run --rm -it -v ${pwd}:/root/env login-os-buildenv 
+#in pwsh, not cmd
